@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.xyz.qa.testcases.CustomersPageTest">
+        <methods>
+          <include name="verifyCustomerDetailsAndDelete"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.xyz.qa.testcases.CustomersPageTest -->
+      <class name="com.xyz.qa.testcases.DepositPageTest">
+        <methods>
+          <include name="depositAmountAndVerifyTransaction"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.xyz.qa.testcases.DepositPageTest -->
+      <class name="com.xyz.qa.testcases.CustomerLoginPageTest">
+        <methods>
+          <include name="verifyCustomerAccountDetails"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.xyz.qa.testcases.CustomerLoginPageTest -->
+      <class name="com.xyz.qa.testcases.OpenAccountPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifyOpenAccountAlertMessage"/>
+        </methods>
+      </class> <!-- com.xyz.qa.testcases.OpenAccountPageTest -->
+      <class name="com.xyz.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="customerLoginTest"/>
+          <include name="loginTest"/>
+          <include name="loginPageTitleTest"/>
+        </methods>
+      </class> <!-- com.xyz.qa.testcases.LoginPageTest -->
+      <class name="com.xyz.qa.testcases.TransactionPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="depositWithdrawAndVerifyTransactions"/>
+        </methods>
+      </class> <!-- com.xyz.qa.testcases.TransactionPageTest -->
+      <class name="com.xyz.qa.testcases.WithdrawPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="withdrawAmount"/>
+        </methods>
+      </class> <!-- com.xyz.qa.testcases.WithdrawPageTest -->
+      <class name="com.xyz.qa.testcases.AddCustomerPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifyAddCustomerAlertMessage"/>
+        </methods>
+      </class> <!-- com.xyz.qa.testcases.AddCustomerPageTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
